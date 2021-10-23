@@ -116,3 +116,21 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# solidity
+cache/
+
+coverage*
+.data
+*.dbg.json
+typechain/
+
+.yalc
+yalc.lock
+
+contractsInfo.json
+deployments/hardhat
+deployments/localhost
+
+artifacts
